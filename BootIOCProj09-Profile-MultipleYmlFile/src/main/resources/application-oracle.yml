@@ -1,0 +1,9 @@
+#Specify the DataSource Type (c3p0)
+spring:
+   datasource: 
+     type: com.mchange.v2.c3p0.ComboPooledDataSource
+
+     driver-class-name: com.mysql.cj.jdbc.Driver
+     url: jdbc:mysql://localhost:3306/ankit
+     username: root
+     password: ankit@123

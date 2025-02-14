@@ -1,0 +1,41 @@
+#set value to JobDetails
+
+spring: 
+   config:
+     import:
+       myFile.yml
+org:
+   jd:
+     jobId: 101
+     desg: MANAGER
+     company: HCL
+     salary: 85000
+
+   emp:
+     eno: 1001
+     ename: Tanny
+     egender: Male
+     eaddrs: NZ
+     econtact: 99999999
+
+     favDesg:
+       - MANAGER
+       - CLERK
+       - ANALYST
+     salaryChoice:
+       - 88888
+       - 33333
+       - 99999
+     friends:
+       - MAKES
+       - JAMES
+       - JAKES
+     idDetails:
+       -aadharNo: 1223444
+       -panNo: 234556
+       -voterId: 234556
+     details:
+       jobId: 301
+       desg: SALESMAN
+       company: MS
+       salary: 34556

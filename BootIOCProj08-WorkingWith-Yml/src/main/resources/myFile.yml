@@ -1,0 +1,35 @@
+org:
+   jd:
+     jobID: 301
+     desg: CLERK
+     company: Infy
+     salary: 600000
+
+   emp:
+    eno: 2001
+    ename: Tanny
+    egender: Male
+    eaddrs: NZ
+    econtact: 99999999
+
+    favDesg:
+      - MANAGER
+      - CLERK
+      - ANALYST
+    salaryChoice:
+      - 888881
+      - 333331
+      - 999991
+    friends:
+      - MAKES
+      - JAMES
+      - JAKES
+    idDetails:
+      -aadharNo: 12234441
+      -panNo: 2345561
+      -voterId: 2345561
+    details:
+      jobId: 401
+      desg: SALESMAN
+      company: MS
+      salary: 34556

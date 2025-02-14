@@ -1,0 +1,10 @@
+#Specify the DataSource Type (tomact-jdbc)
+
+spring:
+   datasource:
+     type: org.apache.tomcat.jdbc.pool.DataSource
+
+     driver-class-name: com.mysql.cj.jdbc.Driver
+     url: jdbc:mysql://localhost:3306/ankit
+     username: root
+     password: ankit@123

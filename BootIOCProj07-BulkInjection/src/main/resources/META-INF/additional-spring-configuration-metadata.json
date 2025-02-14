@@ -1,0 +1,37 @@
+{"properties": [
+  {
+    "name": "org.ankit.jobId",
+    "type": "java.lang.String",
+    "description": "A description for 'org.ankit.jobId'"
+  },
+  {
+    "name": "org.ankit.desg",
+    "type": "java.lang.String",
+    "description": "A description for 'org.ankit.desg'"
+  },
+  {
+    "name": "org.ankit.company",
+    "type": "java.lang.String",
+    "description": "A description for 'org.ankit.company'"
+  },
+  {
+    "name": "org.ankit.salary",
+    "type": "java.lang.String",
+    "description": "A description for 'org.ankit.salary'"
+  },
+  {
+    "name": "org.ankit.jobId",
+    "type": "java.lang.String",
+    "description": "A description for 'org.ankit.jobId'"
+  },
+  {
+    "name": "org.ankit.jobId",
+    "type": "java.lang.String",
+    "description": "A description for 'org.ankit.jobId'"
+  },
+  {
+    "name": "org.ankit.job-Id",
+    "type": "java.lang.String",
+    "description": "A description for 'org.ankit.job-Id'"
+  }
+]}

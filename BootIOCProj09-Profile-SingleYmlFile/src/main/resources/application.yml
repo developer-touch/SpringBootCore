@@ -1,0 +1,70 @@
+# Conversion to YAML from Properties formar report
+
+spring:
+  application:
+    name: BootIOCProj09-Profile
+  #profiles:
+    #active: oracle
+  #profiles:
+    #include: oracle
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ankit
+    username: root
+    password: ankit@123
+  
+---
+#Specify The HikariCP Data Source (For MySQL)
+spring:
+  config:
+    activate:
+      on-profile: mysql
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ankit
+    username: root
+    password: ankit@123
+
+---
+#Specify The DBCP2 Data Source (For mgdb)
+spring:
+  config:
+    activate:
+      on-profile: mgdb
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ankit
+    username: root
+    password: ankit@123
+
+    type: org.apache.commons.dbcp2.BasicDataSource
+---
+#Specify The C3P0 Data Source (For Oracle)
+spring:
+  config:
+    activate:
+      on-profile: oracle
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ankit
+    username: root
+    password: ankit@123
+
+    type: com.mchange.v2.c3p0.ComboPooledDataSource
+---
+#Specify The C3P0 Data Source (For pgsql)
+spring:
+  config:
+    activate:
+      on-profile: pgsql
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ankit
+    password: ankit@123
+
+    type: org.apache.tomcat.jdbc.pool.DataSource

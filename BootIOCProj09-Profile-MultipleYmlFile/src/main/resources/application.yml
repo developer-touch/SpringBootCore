@@ -1,0 +1,6 @@
+# Conversion to YAML from Properties formar report
+spring:
+  application:
+    name: BootIOCProj09-Profile-SeparateYmlFile
+  profiles:
+    active: oracle
